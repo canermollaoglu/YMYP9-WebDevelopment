@@ -1,10 +1,10 @@
 Extra Kurulacak Olan Eklentiler:
 
-Prettier
-Auto Close Tag
-Auto Rename Tag
-Material Icon Theme
-Live Server (Five Server)
-Path Intellisense
-C# (C# Dev Kit)
-C# Extentions
+1-Prettier
+2-Auto Close Tag
+3-Auto Rename Tag
+4-Material Icon Theme
+5-Live Server (Five Server)
+6-Path Intellisense
+7-C# (C# Dev Kit)
+8-C# Extentions
