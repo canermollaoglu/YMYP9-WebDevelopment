@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internal CSS</title>
+        <style>
+            body {
+                background-color: #f0f0f0;
+                margin: 20px;
+            }
+
+            /* class . (nokta) ile yakalanır. */
+            .link {
+                text-decoration: none;
+                color: green;
+                font-weight: bold;
+            }
+
+            h1 {
+                text-align: center;
+                color: purple;
+            }
+
+            p {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: red;
+                /* border: 2px;
+                border-color: black;
+                border-style: solid; */
+                border: 2px solid black;
+                border-radius: 20px;
+                margin: 10px;
+                padding: 16px;
+                width: 300px;
+            }
+
+            /* id # ile yakalanır. */
+            #description {
+                color: blue;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Internal CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facilis consectetur molestiae ipsum animi
+            rerum nostrum magni? Debitis sunt enim exercitationem. Eos a voluptatibus magnam repudiandae quisquam est
+            quidem eius.</p>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, saepe odit? Vel
+            temporibus, expedita
+            ullam harum voluptates nesciunt impedit repellendus explicabo. Culpa libero id eos amet aut veniam error
+            repudiandae.</p>
+        <a class="link" href="./11-cssgiris.html">CSS Giriş Sayfası</a>
+        <a class="link" href="./12-Inlinecss.html">Inline CSS Sayfası</a>
+    </body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Css Kalıtım</title>
+        <style>
+            h1 {
+                color: rgb(6, 183, 228);
+            }
+
+
+
+            #main {
+                background-color: lightgray;
+                padding: 20px;
+                border: 3px solid black;
+                color: blue;
+            }
+
+            section {
+                /* inherit: üst bağlı olduğu elementin özelliğini alır. */
+                border: inherit;
+                margin: 10px;
+                /* normalde color inherit edilen bir propertydir ancak biz burada inherit edilsin istemiyoruz. initial: tarayıcı varsayılan rengini alır. */
+                color: initial;
+            }
+
+            #title {
+                color: red;
+            }
+
+            .text-yellow {
+                color: yellow;
+            }
+        </style>
+    </head>
+    <!-- Bir elemente birden fazla css verdiğimizde hepsi toplanır ve o elemente eklenir. (cascading style sheet) ancak öncelik inline css'e aittir. Daha sonra id ve daha sonra class gelir. Daha sonra etiket ismi gelir. Daha sonra da tarayıcı varsayılanı etkili olacaktır.
+    inline
+    id
+    class
+    etiket
+    tarayıcı varsayılanı 
+    -->
+
+    <body>
+        <main id="main">
+            <section>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ipsam libero, fugiat, quis voluptatum
+                odio necessitatibus itaque neque consequatur ad quo. Atque numquam eligendi, dolore error suscipit unde
+                debitis incidunt?
+            </section>
+            <section>
+                <h1 id="title" class="text-yellow"> Css Kalıtım</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quisquam corrupti quam optio? Doloremque
+                aliquid ipsum delectus, itaque ad neque assumenda totam beatae voluptas voluptatem doloribus repudiandae
+                reprehenderit cupiditate! Possimus?
+            </section>
+        </main>
+    </body>
+
+</html>
